@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGUILAR - MAIN MENU</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        .gif img{
+            margin-top: 0;
+        }
+    
+        .container {
+            margin:0;
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            margin:0;
+        }
+
+        td, th {
+            border: 0 solid white;
+            text-align: left;
+            padding: 0;
+        }
+
+        tr:nth-child(even) {
+            background-color: white;
+        }
+        
+        .centered {
+            position: absolute;
+            top: 57%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: Georgia;
+            font-size: 61px;
+            color: white;
+            text-align: center;
+        }
+
+        .button {
+           margin-top: 30px;
+           display: block;
+           width: inherit;
+           height: inherit;
+           border: none;
+           padding: 14px 28px;
+           font-size: 16px;
+           cursor: pointer;
+           text-align: center;
+           transform: scale(2);
+        }
+
+        .border{
+            cursor: pointer;
+            border: 3px solid white;
+            background-color: transparent;
+            height: 50px;
+            width: 150px;
+            color: white;
+            font-size: 1.3em;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <input type ="checkbox" name ="" id ="chk1">
+        <div class="logo"><a class="active" href = "Aguilar - Main Menu.html"><img src="images/logo.png"></a></div>
+            <ul>
+                <li><a class="active" href="Aguilar - Main Menu.html">Home</a></li>
+                <li><a href="Aguilar - About Me.html">About Me</a></li>
+                <li><a href="Aguilar - Class Schedule.html">Class Schedule</a></li>
+                <li><a href="Aguilar - Favorites.html">Favorites</a></li>
+                <li><a href="Aguilar - Artworks.html">Artworks</a></li>
+                <li id="logo">
+                    <a href="https://www.facebook.com/jayjay.theanimeaddict.senpai/" target=”_blank” alt="Facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.youtube.com/channel/UCOWAme7otMliOqpcw__XZDw" target=”_blank” alt="Youtube"><i class="fa fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/jj_aguilar21/" target=”_blank” alt="Instagram"><i class="fa fa-instagram"></i></a>
+                      
+                </li>
+            </ul>
+            <div class="menu">
+                <label for="chk1">
+                    <i class="fa fa-bars"></i>
+                </label>
+            </div>
+    </header>
+               <div class="container">
+                <table>
+                    <tr>
+                      <th>
+                          <img id="gif" src="images/head.png">
+                        </th>
+                    </tr>
+                    <tr>
+                        <td><img id="gif" src="images/backgroundvid.gif"></td>
+                        <div class="centered">
+                            <strong><h1>WELCOME TO MY PAGE</h1></strong>
+                            <a class="button" href="Aguilar - About Me.html"><button class="border"><strong>Get Started</strong></button></a>
+                        </div>
+                    </tr>
+                  </table>
+               </div>
+</body>
+</html>
